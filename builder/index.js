@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var pc_builder_1 = require("./pc.builder");
+var builder = new pc_builder_1.PCBuilder();
+builder.addCpu('ryzen 98003xd');
+builder.addGraphicsCard('rtx 5090');
+builder.addPowerSupply('asus rog thor');
+builder.addMemory(32);
+builder.addMotherboard('Asus TUF');
+var product = builder.getResult();
+console.log(product);
