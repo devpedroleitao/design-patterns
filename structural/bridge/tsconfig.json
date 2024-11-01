@@ -1,0 +1,10 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "module": "nodenext",
+        "target": "esnext",
+        "rootdir": ".",
+        "strict": true,
+        "outDir": "./dist",
+    }
+}
